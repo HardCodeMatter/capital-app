@@ -1,11 +1,24 @@
 import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import styles from "./App.module.css";
+import { Dashboard } from '../Dashboard';
+import { Generator } from '../Generator';
 
-const App = () => {
+import { Navbar } from '../../components/Navbar';
+
+import styles from './App.module.css';
+
+export const App = () => {
 	return (
-		<>App</>
-	);
-}
+		<BrowserRouter>
+			<Navbar />
 
-export { App };
+			<div className={styles.wrapper}>
+				<Routes>
+					<Route path="/" element={<Dashboard />} />
+					<Route path="/generator" element={<Generator />} />
+				</Routes>
+			</div>
+		</BrowserRouter>
+	);
+};
