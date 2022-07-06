@@ -25,9 +25,18 @@ export const Generator = () => {
 	const handleClick = () => {
 		const randomFirstName = nameList
 			.filter(({ nationality }) => nationality === nationalityOption)
-			.map(
-				({ firstName }) =>
-					firstName[Math.floor(Math.random() * firstName.length)]
+			.map(({ gender }) =>
+				gender[0].key === genderOption
+					? gender[0].firstName[
+							Math.floor(
+								Math.random() * gender[0].firstName.length
+							)
+					  ]
+					: gender[1].firstName[
+							Math.floor(
+								Math.random() * gender[1].firstName.length
+							)
+					  ]
 			);
 
 		const randomLastName = nameList
