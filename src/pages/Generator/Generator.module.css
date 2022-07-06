@@ -1,0 +1,18 @@
+.radio__group {
+	display: flex;
+	gap: 100px;
+  
+	/* border: 1px solid red; */
+}
+
+.name__list {
+	/* border: 1px solid red; */
+	margin-top: 20px;
+}
+
+.button {
+	/* border: 1px solid red; */
+	text-align: center;
+
+	margin: 20px 0;
+}  

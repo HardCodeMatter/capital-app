@@ -1,48 +1,48 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
 :root {
-  --color-white: #fff;
-  --color-black: #010b13;
+	--color-white: #fff;
+	--color-black: #010b13;
 
-  --color-black-opacity: rgba(75, 75, 75, 0.09);
+	--color-black-opacity: rgba(75, 75, 75, 0.09);
 
-  --border-radius-small: 3px;
-  --border-radius-medium: 5px;
+	--border-radius-small: 3px;
+	--border-radius-medium: 5px;
 
-  --font-family-basic: "Montserrat", sans-serif;
+	--font-family-basic: "Montserrat", sans-serif;
 
-  --font-size-basic: 16px;
+	--font-size-basic: 16px;
 
-  --box-shadow-black: 0 4px 24px 0 rgba(34, 41, 47, 0.1);
+	--box-shadow-black: 0 4px 24px 0 rgba(34, 41, 47, 0.1);
 }
 
 * {
-  padding: 0;
-  margin: 0;
+	padding: 0;
+	margin: 0;
 
-  font-family: var(--font-family-basic);
-  font-size: var(--font-size-basic);
+	font-family: var(--font-family-basic);
+	font-size: var(--font-size-basic);
 
-  list-style-type: none;
-  text-decoration: none;
+	list-style-type: none;
+	text-decoration: none;
 }
 
 *,
 ::before,
 ::after {
-  box-sizing: border-box;
+  	box-sizing: border-box;
 }
 
 body {
-  color: var(--color-black);
-  background-color: #f8f8f8;
+	color: var(--color-black);
+	background-color: #f8f8f8;
 }
 
 a {
-  color: var(--color-black);
+	color: var(--color-black);
 }
 
 button {
-  border: none;
-  background: none;
+	border: none;
+	background: none;
 }

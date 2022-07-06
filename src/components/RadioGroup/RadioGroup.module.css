@@ -1,0 +1,10 @@
+.label {
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.children {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
