@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 
-import nameList from '../../utils/names.json';
+import nameList from 'utils/names.json';
 
-import { RadioGroup } from '../../components/RadioGroup';
-import { Radio } from '../../components/Radio';
-import { Button } from '../../components/Button';
+import { RadioGroup } from 'components/RadioGroup';
+import { Radio } from 'components/Radio';
+import { Button } from 'components/Button';
 
 import styles from './Generator.module.css';
 
