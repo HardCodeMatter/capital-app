@@ -1,7 +1,12 @@
-import React from "react";
+import React from 'react';
+import { Navigate } from 'react-router-dom';
 
-import styles from "./Dashboard.module.css";
+import styles from './Dashboard.module.css';
 
 export const Dashboard = () => {
-  return <div>Dashboard</div>;
+	return (
+		<div>
+			<Navigate to="/generator" replace />
+		</div>
+	);
 };

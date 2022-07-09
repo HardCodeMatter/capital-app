@@ -9,4 +9,5 @@
 
 .button:hover {
     background-color: var(--color-black-opacity);
+    box-shadow: var(--box-shadow-black);
 }
