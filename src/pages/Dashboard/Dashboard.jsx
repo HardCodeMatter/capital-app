@@ -1,12 +1,18 @@
 import React from 'react';
-import { Navigate } from 'react-router-dom';
 
-import styles from './Dashboard.module.css';
+import { Dropdown } from 'components/Dropdown/Dropdown';
 
 export const Dashboard = () => {
+	const items = [
+		{ label: 'Los Santos Police', value: 1 },
+		{ label: 'San Fierro Police', value: 2 },
+		{ label: 'Las Venturas Police', value: 3 },
+		{ label: 'Federal Bureau', value: 4 },
+	];
+
 	return (
 		<div>
-			<Navigate to="/generator" replace />
+			<Dropdown label="Organization" items={items} />
 		</div>
 	);
 };
